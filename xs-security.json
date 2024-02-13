@@ -1,0 +1,23 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.UsersViewer",
+      "description": "UsersViewer"
+    },
+    {
+      "name": "$XSAPPNAME.UsersAdmin",
+      "description": "UsersAdmin"
+    }
+  ],
+  "attributes": [],
+    },
+    {
+      "name": "UsersAdmin",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.UsersAdmin"
+      ],
+      "attribute-references": []
+    }
+  ]
+}

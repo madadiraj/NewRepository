@@ -1,0 +1,22 @@
+GET http://localhost:4004/odata/v4/catalog/$metadata
+###
+GET http://localhost:4004/odata/v4/catalog/Books
+###
+POST  http://localhost:4004/odata/v4/catalog/Books HTTP/1.1
+Content-Type: application/json
+
+{
+    "ID":8,
+    "title":"TEST",
+    "stock":4
+}
+###
+GET http://localhost:4004/odata/v4/catalog/Books
+###
+GET http://localhost:4004/odata/v4/project/Users
+###
+GET http://localhost:4004/odata/v4/project/localhost:4004/odata/v4/project/Users
+###
+GET http://localhost:4004/odata/v4/project/localhost:4004/odata/v4/project/Projects
+###
+GET http://localhost:4004/odata/V4/project/Projects
